@@ -1,52 +1,80 @@
-Cmp-Mod V01 Created by CvPcb (2014-01-07 BZR 4610)-product date = jeu. 17 avril 2014 23:45:18 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-09-02 BZR 5112)-product   date = sam. 20 déc. 2014 00:08:09 CET
 
 BeginCmp
 TimeStamp = /5345DCE0;
 Reference = C1;
 ValeurCmp = 0.1µF;
-IdModule  = Capacitors:cnp_3mm_disc;
+IdModule  = SMD_Packages:SMD-0603_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D9E4;
 Reference = C2;
 ValeurCmp = 10µF;
-IdModule  = Capacitors:CP_5x6mm;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D9D2;
 Reference = C3;
 ValeurCmp = 1µF;
-IdModule  = Capacitors:CP_5x6mm;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345CCEC;
 Reference = D1;
 ValeurCmp = LED;
-IdModule  = LEDs:LED-5MM;
+IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345CD8F;
 Reference = D2;
 ValeurCmp = LED;
-IdModule  = LEDs:LED-5MM;
+IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D822;
 Reference = D3;
-ValeurCmp = 1N4001;
-IdModule  = Discret:D3;
+ValeurCmp = 1N4007;
+IdModule  = Diodes_SMD:Diode-MELF_Standard;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D8D4;
 Reference = D4;
-ValeurCmp = 1N4001;
-IdModule  = Discret:D3;
+ValeurCmp = 1N4007;
+IdModule  = Diodes_SMD:Diode-MELF_Standard;
+EndCmp
+
+BeginCmp
+TimeStamp = /54947561;
+Reference = F1;
+ValeurCmp = FUSE;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /549475E4;
+Reference = F2;
+ValeurCmp = FUSE;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /54947615;
+Reference = F3;
+ValeurCmp = FUSE;
+IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /54947647;
+Reference = F4;
+ValeurCmp = FUSE;
+IdModule  = SMD_Packages:SMD-1206;
 EndCmp
 
 BeginCmp
@@ -64,108 +92,66 @@ IdModule  = atx:ATX_NON_90DEG;
 EndCmp
 
 BeginCmp
-TimeStamp = /5345D180;
-Reference = P2;
-ValeurCmp = CONN_1;
-IdModule  = Iut:1PIN_6mm;
-EndCmp
-
-BeginCmp
 TimeStamp = /5345D194;
 Reference = P3;
 ValeurCmp = CONN_1;
-IdModule  = Iut:1PIN_6mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /5345D19C;
-Reference = P4;
-ValeurCmp = CONN_1;
-IdModule  = Iut:1PIN_6mm;
+IdModule  = atx:Banana_single_6mmDrill;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D1A4;
-Reference = P5;
+Reference = P4;
 ValeurCmp = CONN_1;
-IdModule  = Iut:1PIN_6mm;
+IdModule  = atx:Banana_single_6mmDrill;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D1C1;
-Reference = P6;
+Reference = P5;
 ValeurCmp = CONN_1;
-IdModule  = Iut:1PIN_6mm;
+IdModule  = atx:Banana_single_6mmDrill;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D1D1;
-Reference = P7;
+Reference = P6;
 ValeurCmp = CONN_1;
-IdModule  = Iut:1PIN_6mm;
+IdModule  = atx:Banana_single_6mmDrill;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D203;
-Reference = P8;
+Reference = P7;
 ValeurCmp = CONN_1;
-IdModule  = Iut:1PIN_6mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /5345D24D;
-Reference = P9;
-ValeurCmp = CONN_1;
-IdModule  = Iut:1PIN_6mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /5345D258;
-Reference = P10;
-ValeurCmp = CONN_1;
-IdModule  = Iut:1PIN_6mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /5345D263;
-Reference = P11;
-ValeurCmp = CONN_1;
-IdModule  = Iut:1PIN_6mm;
+IdModule  = atx:Banana_single_6mmDrill;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345CD19;
 Reference = R1;
 ValeurCmp = 330;
-IdModule  = Discret:R3;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345CD95;
 Reference = R2;
 ValeurCmp = 330;
-IdModule  = Discret:R3;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345CF17;
 Reference = R3;
 ValeurCmp = 150;
-IdModule  = Discret:R3;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345CF33;
 Reference = R4;
 ValeurCmp = 220;
-IdModule  = Discret:R3;
-EndCmp
-
-BeginCmp
-TimeStamp = /5345E58E;
-Reference = R5;
-ValeurCmp = ??;
-IdModule  = ;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
@@ -186,7 +172,7 @@ BeginCmp
 TimeStamp = /5345CE9E;
 Reference = U1;
 ValeurCmp = LM317T;
-IdModule  = Transistors_TO-220:TO-220_Neutral123_Vertical_LargePads;
+IdModule  = opl:SOT223;
 EndCmp
 
 EndListe
