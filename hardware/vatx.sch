@@ -663,8 +663,6 @@ Connection ~ 4800 1800
 Wire Wire Line
 	5550 1900 5550 1800
 Connection ~ 5150 1900
-NoConn ~ 5550 1700
-NoConn ~ 5550 1550
 $Comp
 L FUSE F1
 U 1 1 54947561
@@ -727,4 +725,6 @@ Text GLabel 6850 1700 0    60   Input ~ 0
 f+VAR
 Wire Notes Line
 	8050 2750 8050 500 
+Wire Wire Line
+	5550 1550 5550 1700
 $EndSCHEMATC
