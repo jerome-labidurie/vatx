@@ -36,8 +36,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "VATX : Variable ATX Power Supply"
-Date "19 déc. 2014"
-Rev "v2"
+Date "10 mars 2015"
+Rev "v2.0"
 Comp "Fablab Lannion"
 Comment1 "Jérôme Labidurie"
 Comment2 ""
