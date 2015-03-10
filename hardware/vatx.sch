@@ -454,7 +454,7 @@ Output connectors
 Text Notes 550  5750 0    60   ~ 0
 Power on
 Wire Notes Line
-	2700 5800 5650 5800
+	2700 5800 7300 5800
 Wire Notes Line
 	5650 5800 5650 2750
 Text Notes 2800 5750 0    60   ~ 0
@@ -727,4 +727,36 @@ Wire Notes Line
 	8050 2750 8050 500 
 Wire Wire Line
 	5550 1550 5550 1700
+Text GLabel 6400 3650 1    60   Input ~ 0
++5V
+$Comp
+L R R5
+U 1 1 54FF3F0D
+P 6400 4050
+F 0 "R5" V 6480 4050 40  0000 C CNN
+F 1 "10 9W" V 6407 4051 40  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM25mm" V 6330 4050 30  0001 C CNN
+F 3 "" H 6400 4050 30  0000 C CNN
+	1    6400 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 54FF3F8D
+P 6400 4500
+F 0 "#PWR015" H 6400 4500 30  0001 C CNN
+F 1 "GND" H 6400 4430 30  0001 C CNN
+F 2 "" H 6400 4500 60  0000 C CNN
+F 3 "" H 6400 4500 60  0000 C CNN
+	1    6400 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3650 6400 3800
+Wire Wire Line
+	6400 4300 6400 4500
+Wire Notes Line
+	7300 5800 7300 2750
+Text Notes 5700 5750 0    60   ~ 0
+Power resistor (if needed)
 $EndSCHEMATC

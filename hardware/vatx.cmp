@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-09-02 BZR 5112)-product   date = 10/03/2015 16:52:12
+Cmp-Mod V01 Created by Cvpcb (2014-09-02 BZR 5112)-product   date = mar. 10 mars 2015 18:52:53 CET
 
 BeginCmp
 TimeStamp = /5345DCE0;
@@ -152,6 +152,13 @@ TimeStamp = /5345CF33;
 Reference = R4;
 ValeurCmp = 220;
 IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FF3F0D;
+Reference = R5;
+ValeurCmp = 10 9W;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM25mm;
 EndCmp
 
 BeginCmp
