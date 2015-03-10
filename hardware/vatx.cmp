@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-09-02 BZR 5112)-product   date = sam. 20 déc. 2014 00:08:09 CET
+Cmp-Mod V01 Created by Cvpcb (2014-09-02 BZR 5112)-product   date = 10/03/2015 16:52:12
 
 BeginCmp
 TimeStamp = /5345DCE0;
@@ -81,7 +81,7 @@ BeginCmp
 TimeStamp = /53504BF8;
 Reference = J1;
 ValeurCmp = USB;
-IdModule  = atx:USB_A_DOUBLE;
+IdModule  = opl:4P-2.0-90D;
 EndCmp
 
 BeginCmp
@@ -165,7 +165,7 @@ BeginCmp
 TimeStamp = /5345CCA5;
 Reference = SW1;
 ValeurCmp = SWITCH_INV;
-IdModule  = Discret:MICROSWITCH_SPST;
+IdModule  = opl:TS-1101F;
 EndCmp
 
 BeginCmp
