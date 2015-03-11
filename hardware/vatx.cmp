@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-09-02 BZR 5112)-product   date = mar. 10 mars 2015 18:52:53 CET
+Cmp-Mod V01 Created by Cvpcb (2014-09-02 BZR 5112)-product   date = 11/03/2015 11:18:17
 
 BeginCmp
 TimeStamp = /5345DCE0;
@@ -39,14 +39,14 @@ BeginCmp
 TimeStamp = /5345D822;
 Reference = D3;
 ValeurCmp = 1N4007;
-IdModule  = Diodes_SMD:Diode-MELF_Standard;
+IdModule  = opl:DO-214AC;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D8D4;
 Reference = D4;
 ValeurCmp = 1N4007;
-IdModule  = Diodes_SMD:Diode-MELF_Standard;
+IdModule  = opl:DO-214AC;
 EndCmp
 
 BeginCmp
