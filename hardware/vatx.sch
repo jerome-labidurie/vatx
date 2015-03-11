@@ -334,89 +334,89 @@ Wire Wire Line
 Text GLabel 9200 1200 0    60   Input ~ 0
 +12V
 Wire Wire Line
-	6850 1250 7250 1250
+	6850 950  7250 950 
 $Comp
 L CONN_1 P3
 U 1 1 5345D194
+P 7400 950
+F 0 "P3" H 7480 950 40  0000 L CNN
+F 1 "CONN_1" H 7400 1005 30  0001 C CNN
+F 2 "atx:Banana_single_6mmDrill" H 7400 950 60  0001 C CNN
+F 3 "" H 7400 950 60  0000 C CNN
+	1    7400 950 
+	1    0    0    -1  
+$EndComp
+Text GLabel 9200 1400 0    60   Input ~ 0
++5V
+Wire Wire Line
+	6850 1100 7250 1100
+$Comp
+L CONN_1 P4
+U 1 1 5345D1A4
+P 7400 1100
+F 0 "P4" H 7480 1100 40  0000 L CNN
+F 1 "CONN_1" H 7400 1155 30  0001 C CNN
+F 2 "atx:Banana_single_6mmDrill" H 7400 1100 60  0001 C CNN
+F 3 "" H 7400 1100 60  0000 C CNN
+	1    7400 1100
+	1    0    0    -1  
+$EndComp
+Text GLabel 9200 1600 0    60   Input ~ 0
++3.3V
+Wire Wire Line
+	6850 1250 7250 1250
+$Comp
+L CONN_1 P5
+U 1 1 5345D1C1
 P 7400 1250
-F 0 "P3" H 7480 1250 40  0000 L CNN
+F 0 "P5" H 7480 1250 40  0000 L CNN
 F 1 "CONN_1" H 7400 1305 30  0001 C CNN
 F 2 "atx:Banana_single_6mmDrill" H 7400 1250 60  0001 C CNN
 F 3 "" H 7400 1250 60  0000 C CNN
 	1    7400 1250
 	1    0    0    -1  
 $EndComp
-Text GLabel 9200 1400 0    60   Input ~ 0
-+5V
+Text GLabel 9200 1800 0    60   Input ~ 0
++VAR
 Wire Wire Line
 	6850 1400 7250 1400
 $Comp
-L CONN_1 P4
-U 1 1 5345D1A4
+L CONN_1 P6
+U 1 1 5345D1D1
 P 7400 1400
-F 0 "P4" H 7480 1400 40  0000 L CNN
+F 0 "P6" H 7480 1400 40  0000 L CNN
 F 1 "CONN_1" H 7400 1455 30  0001 C CNN
 F 2 "atx:Banana_single_6mmDrill" H 7400 1400 60  0001 C CNN
 F 3 "" H 7400 1400 60  0000 C CNN
 	1    7400 1400
 	1    0    0    -1  
 $EndComp
-Text GLabel 9200 1600 0    60   Input ~ 0
-+3.3V
 Wire Wire Line
-	6850 1550 7250 1550
+	6700 1550 7250 1550
 $Comp
-L CONN_1 P5
-U 1 1 5345D1C1
+L CONN_1 P7
+U 1 1 5345D203
 P 7400 1550
-F 0 "P5" H 7480 1550 40  0000 L CNN
+F 0 "P7" H 7480 1550 40  0000 L CNN
 F 1 "CONN_1" H 7400 1605 30  0001 C CNN
 F 2 "atx:Banana_single_6mmDrill" H 7400 1550 60  0001 C CNN
 F 3 "" H 7400 1550 60  0000 C CNN
 	1    7400 1550
 	1    0    0    -1  
 $EndComp
-Text GLabel 9200 1800 0    60   Input ~ 0
-+VAR
-Wire Wire Line
-	6850 1700 7250 1700
-$Comp
-L CONN_1 P6
-U 1 1 5345D1D1
-P 7400 1700
-F 0 "P6" H 7480 1700 40  0000 L CNN
-F 1 "CONN_1" H 7400 1755 30  0001 C CNN
-F 2 "atx:Banana_single_6mmDrill" H 7400 1700 60  0001 C CNN
-F 3 "" H 7400 1700 60  0000 C CNN
-	1    7400 1700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6700 1850 7250 1850
-$Comp
-L CONN_1 P7
-U 1 1 5345D203
-P 7400 1850
-F 0 "P7" H 7480 1850 40  0000 L CNN
-F 1 "CONN_1" H 7400 1905 30  0001 C CNN
-F 2 "atx:Banana_single_6mmDrill" H 7400 1850 60  0001 C CNN
-F 3 "" H 7400 1850 60  0000 C CNN
-	1    7400 1850
-	1    0    0    -1  
-$EndComp
 $Comp
 L GND #PWR07
 U 1 1 5345D209
-P 6700 1900
-F 0 "#PWR07" H 6700 1900 30  0001 C CNN
-F 1 "GND" H 6700 1830 30  0001 C CNN
-F 2 "" H 6700 1900 60  0000 C CNN
-F 3 "" H 6700 1900 60  0000 C CNN
-	1    6700 1900
+P 6700 1600
+F 0 "#PWR07" H 6700 1600 30  0001 C CNN
+F 1 "GND" H 6700 1530 30  0001 C CNN
+F 2 "" H 6700 1600 60  0000 C CNN
+F 3 "" H 6700 1600 60  0000 C CNN
+	1    6700 1600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 1850 6700 1900
+	6700 1550 6700 1600
 Text GLabel 4700 1550 0    60   Input ~ 0
 f+5V
 $Comp
@@ -454,7 +454,7 @@ U 1 1 5345D822
 P 3850 3300
 F 0 "D3" H 3850 3400 40  0000 C CNN
 F 1 "1N4007" H 3850 3200 40  0000 C CNN
-F 2 "Diodes_SMD:Diode-MELF_Standard" H 3850 3300 60  0001 C CNN
+F 2 "opl:DO-214AC" H 3850 3300 60  0001 C CNN
 F 3 "" H 3850 3300 60  0000 C CNN
 	1    3850 3300
 	-1   0    0    1   
@@ -473,7 +473,7 @@ U 1 1 5345D8D4
 P 4500 3900
 F 0 "D4" H 4500 4000 40  0000 C CNN
 F 1 "1N4007" H 4500 3800 40  0000 C CNN
-F 2 "Diodes_SMD:Diode-MELF_Standard" H 4500 3900 60  0001 C CNN
+F 2 "opl:DO-214AC" H 4500 3900 60  0001 C CNN
 F 3 "" H 4500 3900 60  0000 C CNN
 	1    4500 3900
 	0    -1   -1   0   
@@ -704,13 +704,13 @@ Text GLabel 9700 1600 2    60   Output ~ 0
 f+3.3V
 Text GLabel 9700 1800 2    60   Output ~ 0
 f+VAR
-Text GLabel 6850 1250 0    60   Input ~ 0
+Text GLabel 6850 950  0    60   Input ~ 0
 f+12V
-Text GLabel 6850 1400 0    60   Input ~ 0
+Text GLabel 6850 1100 0    60   Input ~ 0
 f+5V
-Text GLabel 6850 1550 0    60   Input ~ 0
+Text GLabel 6850 1250 0    60   Input ~ 0
 f+3.3V
-Text GLabel 6850 1700 0    60   Input ~ 0
+Text GLabel 6850 1400 0    60   Input ~ 0
 f+VAR
 Wire Notes Line
 	8050 2750 8050 500 
@@ -750,4 +750,37 @@ Text Notes 5700 5750 0    60   ~ 0
 Power resistor (if needed)
 Wire Wire Line
 	4250 4150 4250 4650
+$Comp
+L CONN_01X05 P2
+U 1 1 5500BFE2
+P 7450 2050
+F 0 "P2" H 7450 2350 50  0000 C CNN
+F 1 "CONN_01X05" V 7550 2050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05" H 7450 2050 60  0001 C CNN
+F 3 "" H 7450 2050 60  0000 C CNN
+	1    7450 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 1550 7250 1850
+Wire Wire Line
+	7250 1950 7200 1950
+Wire Wire Line
+	7200 1950 7200 1400
+Connection ~ 7200 1400
+Wire Wire Line
+	7250 2050 7150 2050
+Wire Wire Line
+	7250 2150 7100 2150
+Wire Wire Line
+	7250 2250 7050 2250
+Wire Wire Line
+	7150 2050 7150 950 
+Connection ~ 7150 950 
+Wire Wire Line
+	7100 2150 7100 1100
+Connection ~ 7100 1100
+Wire Wire Line
+	7050 2250 7050 1250
+Connection ~ 7050 1250
 $EndSCHEMATC

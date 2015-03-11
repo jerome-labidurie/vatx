@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-09-02 BZR 5112)-product   date = 11/03/2015 11:18:17
+Cmp-Mod V01 Created by Cvpcb (2014-09-02 BZR 5112)-product   date = mer. 11 mars 2015 20:41:04 CET
 
 BeginCmp
 TimeStamp = /5345DCE0;
@@ -24,14 +24,14 @@ EndCmp
 BeginCmp
 TimeStamp = /5345CCEC;
 Reference = D1;
-ValeurCmp = LED;
+ValeurCmp = blue;
 IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345CD8F;
 Reference = D2;
-ValeurCmp = LED;
+ValeurCmp = yellow;
 IdModule  = LEDs:LED-0603;
 EndCmp
 
@@ -92,6 +92,13 @@ IdModule  = atx:ATX_NON_90DEG;
 EndCmp
 
 BeginCmp
+TimeStamp = /5500BFE2;
+Reference = P2;
+ValeurCmp = CONN_01X05;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x05;
+EndCmp
+
+BeginCmp
 TimeStamp = /5345D194;
 Reference = P3;
 ValeurCmp = CONN_1;
@@ -129,28 +136,21 @@ EndCmp
 BeginCmp
 TimeStamp = /5345CD19;
 Reference = R1;
-ValeurCmp = 330;
+ValeurCmp = 470;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345CD95;
 Reference = R2;
-ValeurCmp = 330;
+ValeurCmp = 680;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345CF17;
 Reference = R3;
-ValeurCmp = 150;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5345CF33;
-Reference = R4;
-ValeurCmp = 220;
+ValeurCmp = 100;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
