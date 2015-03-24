@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-09-02 BZR 5112)-product   date = mer. 11 mars 2015 20:41:04 CET
+Cmp-Mod V01 Created by Cvpcb (2014-09-02 BZR 5112)-product   date = mar. 24 mars 2015 18:50:03 CET
 
 BeginCmp
 TimeStamp = /5345DCE0;
@@ -134,6 +134,13 @@ IdModule  = atx:Banana_single_6mmDrill;
 EndCmp
 
 BeginCmp
+TimeStamp = /5511A632;
+Reference = P8;
+ValeurCmp = CONN_01X03;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
 TimeStamp = /5345CD19;
 Reference = R1;
 ValeurCmp = 470;
@@ -152,6 +159,13 @@ TimeStamp = /5345CF17;
 Reference = R3;
 ValeurCmp = 100;
 IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55119D2F;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -180,6 +194,13 @@ TimeStamp = /5345CE9E;
 Reference = U1;
 ValeurCmp = LM317T;
 IdModule  = opl:SOT223;
+EndCmp
+
+BeginCmp
+TimeStamp = /55119CA8;
+Reference = U2;
+ValeurCmp = OPTO-TRANSISTOR4;
+IdModule  = Opto-Devices:Optocoupler_SMD_HandSoldering_KPC357_LTV35x_PC357_SingleChannel;
 EndCmp
 
 EndListe
