@@ -37,7 +37,7 @@ encoding utf-8
 Sheet 1 1
 Title "VATX : Variable ATX Power Supply"
 Date "24 mars 2015"
-Rev "v2.1"
+Rev "v2.2"
 Comp "Fablab Lannion"
 Comment1 "Jérôme Labidurie"
 Comment2 ""
@@ -417,8 +417,6 @@ F 3 "" H 6700 1600 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	6700 1550 6700 1600
-Text GLabel 4700 1550 0    60   Input ~ 0
-f+5V
 $Comp
 L GND #PWR08
 U 1 1 5345D3CE
@@ -862,4 +860,6 @@ Wire Wire Line
 	10300 4650 9400 4650
 Text Notes 7350 5750 0    60   ~ 0
 PSON remote control (option)
+Text GLabel 4700 1550 0    60   Input ~ 0
++5V
 $EndSCHEMATC
