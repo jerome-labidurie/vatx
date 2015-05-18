@@ -36,8 +36,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "VATX : Variable ATX Power Supply"
-Date "24 mars 2015"
-Rev "v2.2"
+Date "18 mai 2015"
+Rev "v2.3"
 Comp "Fablab Lannion"
 Comment1 "Jérôme Labidurie"
 Comment2 ""
@@ -321,16 +321,14 @@ Text GLabel 4900 3650 2    60   Output ~ 0
 $Comp
 L POT RV1
 U 1 1 5345CFB7
-P 4250 4900
-F 0 "RV1" H 4250 4800 50  0000 C CNN
-F 1 "1K" H 4250 4900 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Alps-RK16-single_largePads" H 4250 4900 60  0001 C CNN
-F 3 "" H 4250 4900 60  0000 C CNN
-	1    4250 4900
+P 4250 4750
+F 0 "RV1" H 4250 4650 50  0000 C CNN
+F 1 "1K" H 4250 4750 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Alps-RK16-single_largePads" H 4250 4750 60  0001 C CNN
+F 3 "" H 4250 4750 60  0000 C CNN
+	1    4250 4750
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4250 5150 4250 5250
 Text GLabel 9200 1200 0    60   Input ~ 0
 +12V
 Wire Wire Line
@@ -518,7 +516,6 @@ Wire Wire Line
 Connection ~ 3450 3650
 Wire Wire Line
 	3450 4800 3450 5150
-Connection ~ 4250 5150
 $Comp
 L C C1
 U 1 1 5345DCE0
@@ -530,7 +527,6 @@ F 3 "" H 3450 4600 60  0000 C CNN
 	1    3450 4600
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4400 4900
 $Comp
 L PWR_FLAG #FLG09
 U 1 1 5345E0AF
@@ -746,8 +742,6 @@ Wire Notes Line
 	7300 5800 7300 2750
 Text Notes 5700 5750 0    60   ~ 0
 Power resistor (if needed)
-Wire Wire Line
-	4250 4150 4250 4650
 $Comp
 L CONN_01X05 P2
 U 1 1 5500BFE2
@@ -862,4 +856,13 @@ Text Notes 7350 5750 0    60   ~ 0
 PSON remote control (option)
 Text GLabel 4700 1550 0    60   Input ~ 0
 +5V
+Wire Wire Line
+	4250 4500 4250 4150
+Wire Wire Line
+	4400 4750 4400 5150
+Connection ~ 4400 5150
+NoConn ~ 4250 5000
+Wire Wire Line
+	4250 5250 4250 5150
+Connection ~ 4250 5150
 $EndSCHEMATC
